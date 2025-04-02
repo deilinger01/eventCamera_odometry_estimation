@@ -1,0 +1,5 @@
+<launch>
+    <!-- Launch the Motion Estimation node -->
+    <node name="Events" pkg="odometry_estimation" type="events_generation.py" output="screen">
+    </node>
+</launch>

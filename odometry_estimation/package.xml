@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>odometry_estimation</name>
+  <version>0.0.1</version>
+  <description>Odometry estimation package for motion tracking.</description>
+
+  <maintainer email="deilinger@ethz.ch">Dimitri Eilinger</maintainer>
+  <license>MIT</license>
+
+  <!-- Build tool dependency -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Runtime and build dependencies -->
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>event_msgs</depend> <!-- Add this dependency -->
+
+  <!-- Message generation dependencies -->
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <!-- Optional: Test dependencies -->
+  <test_depend>rostest</test_depend>
+</package>

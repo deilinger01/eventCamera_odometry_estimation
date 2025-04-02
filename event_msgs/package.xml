@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>event_msgs</name>
+  <version>0.0.0</version>
+  <description>Event message definitions for f1tenth_system</description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <depend>std_msgs</depend>
+</package>

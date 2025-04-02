@@ -1,0 +1,5 @@
+<launch>
+    <!-- Launch the Motion Estimation node -->
+    <node name="Farneback" pkg="odometry_estimation" type="Farneback.py" output="screen">
+    </node>
+</launch>

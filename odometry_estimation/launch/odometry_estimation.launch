@@ -1,0 +1,7 @@
+<launch>
+    <!-- Launch the Events node -->
+    <node name="Events" pkg="odometry_estimation" type="events_generation.py" output="screen" />
+
+    <!-- Launch the Farnback node -->
+    <node name="Farneback" pkg="odometry_estimation" type="Farneback.py" output="screen" />
+</launch>
